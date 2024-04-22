@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if [[ -d ./build ]]; then
+    rm -rf ./build
+fi
+
+mkdir build
+javac -cp ./../lib/Sepia.jar -d build $(find edu -name *.java)
+
+
+# if there are any .class files in build
+if [[ $(find . -name "*.class" | wc -l) -ne 0 ]]; then
+    cd build
+    jar cvf ./../../lib/rl-viter-maze.jar edu/
+    cd ..
+fi
+
+rm -rf build
+

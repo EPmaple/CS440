@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/Sepia.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/argparse4j-0.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pitfall.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/battleship.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/stealth.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zombayes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/infexf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/open-loop.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
